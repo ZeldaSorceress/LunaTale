@@ -1,0 +1,31 @@
+table, th, td {
+    color: white;
+    padding: 10px;
+    opacity: 1;
+}
+th,td {
+    box-shadow: 1px 1px 10px orange;
+    opacity: 1;
+}
+th {
+    color: black;
+    font-size: 24px;
+    border-style: solid;
+    border-color: orange;
+    text-shadow: 1px 1px 10px yellow;
+}
+td {
+    border-style: solid;
+    border-color: orange;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 10px black;
+}
+td:hover {
+    opacity: 1;
+    cursor: crosshair;
+}
+table {
+    width: 100%;
+}

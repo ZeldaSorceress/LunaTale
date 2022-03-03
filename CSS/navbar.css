@@ -9,12 +9,12 @@
     padding: 10px;
     text-decoration: none;
     font-size: 17px;
+    transition: .5s;
 } 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-    transition: 1.5s;
-    transform:
+    transition: 1s;
 } 
 .topnav a.active {
     background-color: #04AA6D;

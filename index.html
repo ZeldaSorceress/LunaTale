@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="CSS/scrollbar.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/iframe.css">
+    <link rel="icon" type="image/x-icon" href="RES/LT_Logo.png">
 </head>
 <style>
     html,body {margin: 0; background-color: #262626;}
-    img {width: 41px; float: right;}
+    .img {width: 41px; float: right;}
+    #img {width: 50%; border-style: solid; border-color: black; box-shadow: 1px 1px 10px black;}
+    .iframe iframe {border-style: solid; border-color: black; width: 37%; box-shadow: 1px 1px 10px black;}
 </style>
 <body>
 <!---About--->
@@ -19,12 +22,20 @@
         <a href="">Items</a>
         <a href="skills.html">Skills</a>
         <a href="char.html">Characters</a>
-        <img src="RES/logo.png" alt="logo">
+        <img src="RES/logo.png" alt="logo" class="img">
         <a href="" style="float: right;">ZeldaSorceress</a>
     </div>
     <center>
-        <iframe width="500" height="300" src="https://www.youtube.com/embed/M4O7kHFIk_Q?autoplay=1&mute=1&controls=0" frameborder="1" style="float: left; margin-left: 100px;"></iframe>
-        <iframe src="https://itch.io/embed/1431127?dark=true" height="167" width="552" frameborder="1" style="float: right; margin-right: 100px;"><a href="https://zsorcer17.itch.io/lunas-tale">Luna&#039;s Tale by ZSorcer17</a></iframe>
+        <br>
+        <br>
+        <img src="RES/LT_Banner.png" id="img">
+        <br>
+        <br>
+        <div class="iframe">
+            <iframe src="https://itch.io/embed/1431127?dark=true" height="167" width="552" frameborder="1"><a href="https://zsorcer17.itch.io/lunas-tale">Luna&#039;s Tale by ZSorcer17</a></iframe>
+        </div>
+        <br>
+        <br>
     </center>
 <!---End About--->
 <script src="JS/backgroundvideo.js"></script>

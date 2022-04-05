@@ -1,0 +1,4 @@
+.panel {border-color: black; border-style: solid; padding: 10px; width: 45%; background-color: black;}
+.panel h2 {color: white; text-shadow: 1px 1px 10px white; text-align: center;}
+.panel img {width: 300px; border-color: #363636; border-style: solid; float: right;}
+.panel p {color: white;}
